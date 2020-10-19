@@ -91,7 +91,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  line-height:2;
   color: #fff;
   text-decoration: none;
 }
@@ -103,11 +102,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #main {
+  line-height:5;
+
   margin-top: 80px;
 }
 
 /*--------------------------------------------------------------
-# Navigation Menu
+# Navigation Menu  line-height:2;
+
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu, .nav-menu * {
