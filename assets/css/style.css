@@ -59,8 +59,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-
-
 #header {
   height: 80px;
   transition: all 0.5s;
@@ -91,7 +89,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  line-height:1;
   color: #fff;
   text-decoration: none;
 }
@@ -107,8 +104,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 /*--------------------------------------------------------------
-# Navigation Menu  line-height:2;
-
+# Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu, .nav-menu * {
@@ -244,8 +240,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  line-height:3;
-
   color: #a2cce3;
   text-decoration: none;
 }
